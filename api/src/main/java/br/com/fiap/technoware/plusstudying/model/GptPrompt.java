@@ -51,7 +51,7 @@ public class GptPrompt {
     private String descricaoPrompt;
 
     @Column(name = "gpt_choices") @NotNull @Lob
-    private Blob gptChoices;
+    private String gptChoices;
 
     @Column(name = "gpt_created", precision = 100) @NotNull
     private Long gptCreated;
