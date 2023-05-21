@@ -28,7 +28,7 @@ import lombok.NoArgsConstructor;
 @Builder
 public class Exercicio {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_exercicio") @NotNull
+    @Column(name = "id_exercicio")
     private Long id;
 
     @NotNull @ManyToOne

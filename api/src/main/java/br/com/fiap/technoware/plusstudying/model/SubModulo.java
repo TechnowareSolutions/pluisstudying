@@ -28,7 +28,7 @@ import lombok.NoArgsConstructor;
 @Builder
 public class SubModulo {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_submodulo") @NotNull
+    @Column(name = "id_submodulo")
     private Long id;
 
     @NotNull @ManyToOne

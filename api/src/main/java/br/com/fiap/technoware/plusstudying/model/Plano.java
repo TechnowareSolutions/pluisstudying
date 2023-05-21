@@ -29,7 +29,7 @@ import lombok.NoArgsConstructor;
 public class Plano {
     
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_plano") @NotNull
+    @Column(name = "id_plano")
     private Long id;
 
     @Column(name = "nm_plano") @NotNull

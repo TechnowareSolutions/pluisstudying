@@ -35,7 +35,7 @@ import lombok.NoArgsConstructor;
 @Builder
 public class GptPrompt {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_prompt") @NotNull
+    @Column(name = "id_prompt")
     private Long id;
 
     @NotNull @ManyToOne

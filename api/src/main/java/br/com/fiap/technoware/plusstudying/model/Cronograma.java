@@ -29,7 +29,7 @@ import lombok.NoArgsConstructor;
 @Builder
 public class Cronograma {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_cronograma") @NotNull
+    @Column(name = "id_cronograma")
     private Long id;
 
     @NotNull @ManyToOne

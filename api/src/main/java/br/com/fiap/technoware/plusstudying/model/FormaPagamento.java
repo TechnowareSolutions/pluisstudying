@@ -31,7 +31,7 @@ import lombok.NoArgsConstructor;
 @Builder
 public class FormaPagamento {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_forma_pagamento") @NotNull
+    @Column(name = "id_forma_pagamento")
     private Long id;
 
     @NotNull @ManyToOne

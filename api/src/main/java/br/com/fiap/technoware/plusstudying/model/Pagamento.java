@@ -30,7 +30,7 @@ import br.com.fiap.technoware.plusstudying.controller.PagamentoController;
 @Builder
 public class Pagamento {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_pagamento") @NotNull
+    @Column(name = "id_pagamento")
     private Long id;
 
     @NotNull @PastOrPresent
